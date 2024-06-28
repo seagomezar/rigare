@@ -91,16 +91,40 @@ const Nav = () => {
       {isOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-md z-20">
           <nav className="flex flex-col space-y-2 p-4">
-            <a href="#" className="text-black">
+            <a
+              href="#servicios"
+              onClick={() => {
+                toggleMenu();
+              }}
+              className="text-black"
+            >
               Servicios
             </a>
-            <a href="#" className="text-black">
+            <a
+              href="#aplicaciones"
+              onClick={() => {
+                toggleMenu();
+              }}
+              className="text-black"
+            >
               Aplicaciones
             </a>
-            <a href="#" className="text-black">
+            <a
+              href="#productos"
+              onClick={() => {
+                toggleMenu();
+              }}
+              className="text-black"
+            >
               Productos
             </a>
-            <a href="#" className="text-black">
+            <a
+              href="#contacto"
+              onClick={() => {
+                toggleMenu();
+              }}
+              className="text-black"
+            >
               Contacto
             </a>
           </nav>

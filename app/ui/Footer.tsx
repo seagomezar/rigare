@@ -8,7 +8,7 @@ const Footer = () => {
         <p>Correo: julian.rigare@gmail.com</p>
         <p>Celular: +573006369637</p>
       </div>
-      <div className="flex space-x-4">
+      <div className="flex space-x-4" id="contacto">
         <a
           href="https://co.linkedin.com/in/rigare"
           target="_blank"
