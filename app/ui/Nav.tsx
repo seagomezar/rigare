@@ -1,5 +1,14 @@
+'use client'; // components/Nav.js
+import { useState } from 'react';
 import Image from 'next/image';
+
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="w-full bg-white py-4 px-8 flex items-center justify-between">
       <div className="flex items-center">
@@ -32,7 +41,7 @@ const Nav = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="size-6"
+          className="w-6 h-6"
         >
           <path
             strokeLinecap="round"
@@ -41,6 +50,62 @@ const Nav = () => {
           />
         </svg>
       </div>
+      <div className="md:hidden">
+        <button
+          onClick={toggleMenu}
+          className="text-black focus:outline-none"
+        >
+          {isOpen ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          )}
+        </button>
+      </div>
+      {isOpen && (
+        <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-md z-20">
+          <nav className="flex flex-col space-y-2 p-4">
+            <a href="#" className="text-black">
+              Servicios
+            </a>
+            <a href="#" className="text-black">
+              Aplicaciones
+            </a>
+            <a href="#" className="text-black">
+              Productos
+            </a>
+            <a href="#" className="text-black">
+              Contacto
+            </a>
+          </nav>
+        </div>
+      )}
     </header>
   );
 };
