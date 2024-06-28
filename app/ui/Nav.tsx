@@ -21,16 +21,16 @@ const Nav = () => {
         />
       </div>
       <nav className="hidden md:flex space-x-4">
-        <a href="#" className="text-black">
+        <a href="#servicios" className="text-black">
           Servicios
         </a>
-        <a href="#" className="text-black">
+        <a href="#aplicaciones" className="text-black">
           Aplicaciones
         </a>
-        <a href="#" className="text-black">
+        <a href="#productos" className="text-black">
           Productos
         </a>
-        <a href="#" className="text-black">
+        <a href="#contacto" className="text-black">
           Contacto
         </a>
       </nav>
