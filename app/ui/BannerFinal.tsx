@@ -18,9 +18,15 @@ const BannerMedio = () => {
           <p className="text-lg mb-4">
             Obten tu cotización Ahora mismo{' '}
           </p>
-          <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">
-            Contáctanos!
-          </button>
+          <a
+            href="https://wa.me/1234567890"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-yellow-600 hover:bg-yellow-500 text-white font-bold py-2 px-4 rounded">
+              Contáctanos!
+            </button>
+          </a>
         </div>
       </div>
     </div>

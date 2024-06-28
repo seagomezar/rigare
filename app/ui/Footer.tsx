@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="flex space-x-4">
         <a
-          href="https://www.linkedin.com"
+          href="https://co.linkedin.com/in/rigare"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -20,7 +20,7 @@ const Footer = () => {
             className="h-6 w-6"
           />
         </a>
-        <a
+        {/*<a
           href="https://www.youtube.com"
           target="_blank"
           rel="noopener noreferrer"
@@ -30,9 +30,9 @@ const Footer = () => {
             alt="YouTube"
             className="h-6 w-6"
           />
-        </a>
+        </a>*/}
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/rigare_sas/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,7 +43,7 @@ const Footer = () => {
           />
         </a>
         <a
-          href="https://www.facebook.com"
+          href="https://m.facebook.com/100066176642781/"
           target="_blank"
           rel="noopener noreferrer"
         >
