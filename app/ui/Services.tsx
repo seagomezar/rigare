@@ -7,28 +7,28 @@ const services = [
     title: 'Sistemas de Bombeo',
     description:
       'Nuestra Unidad Estratégica de Sistemas de Bombeo ha sido diseñada para proporcionar soluciones eficientes en una amplia variedad de aplicaciones de bombeo de agua. Con un equipo dedicado comprometido con la excelencia y respaldado por sólidas alianzas estratégicas, garantizamos la entrega de un valor excepcional en cada proyecto que emprendemos. Descubre cómo nuestras soluciones de bombeo pueden optimizar tus operaciones y maximizar tu rendimiento.',
-    image: '/carousel/1.webp',
+    image: '/Servicios Sistemas de Bombeo.webp',
   },
   {
     id: 2,
     title: 'Sistemas de Riego',
     description:
       'Nuestra Unidad Estratégica de Sistemas de Riego ha sido diseñada para llevar eficiencia y excelencia a cada terreno que tocamos. En colaboración con los principales fabricantes a nivel mundial, nos centramos en optimizar el uso del agua tanto en la agricultura como en el paisajismo. Descubre cómo podemos hacer florecer tus espacios con nuestros sistemas de riego automatizados y sostenibles.',
-    image: '/carousel/2.webp',
+    image: '/Servicios Sistemas de Riego.jpg',
   },
   {
     id: 3,
     title: 'Diseño de Sistemas de Riego',
     description:
       'Nuestra Unidad Estratégica de Diseño de Sistemas de Riego ha sido creada con el propósito de fusionar innovación y eficiencia en un servicio que aborde las necesidades hídricas de proyectos productivos o paisajísticos. Somos expertos y tenemos cobertura desde el dimensionamiento y la planificación inicial hasta la ejecución, nos comprometemos a convertir tus proyectos de riego en realidades sostenibles y efectivas. Descubre cómo podemos transformar tus sueños en un vibrante verdor.',
-    image: '/carousel/3.webp',
+    image: '/Servicios Diseño Sistemas de Riego.jpg',
   },
   {
     id: 4,
     title: 'Fabricación de Controladores',
     description:
       'Controla cada gota con mayor eficiencia. Presentamos nuestros innovadores controladores para sistemas de bombeo y sistemas de riego, diseñados para llevar la gestión de agua a otro nivel. Con nuestra tecnología podrás optimizar tus recursos hídricos de manera inteligente y eficaz. Ajusta los tiempos, la frecuencia y la cantidad de agua con alta precisión, garantizando un uso eficiente y sostenible de este recurso invaluable. Nuestros controladores ofrecen una interfaz intuitiva y fácil de usar, diseñada para satisfacer las necesidades de agricultores, operadores de mantenimiento y profesionales del sector. Descubre una nueva era en la gestión del agua.',
-    image: '/carousel/4.webp',
+    image: '˝/Servicios Fabricación controladores.webp',
   },
 ];
 

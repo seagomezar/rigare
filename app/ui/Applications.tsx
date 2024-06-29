@@ -8,7 +8,7 @@ const applications = [
     title: 'Bombeo Residencial',
     description:
       'Suministro de agua confiable y eficiente para tú hogar con nuestras soluciones de bombeo silenciosas y de bajo consumo. Ideales para vivienda urbana o rural.',
-    image: '/carousel/1.webp',
+    image: '/Aplicaciones Bombeo Residencial.webp',
     icon: '/icons/BombeoResidencial.svg',
   },
   {
@@ -16,7 +16,7 @@ const applications = [
     title: 'Bombeo Comercial',
     description:
       'Optimiza tus operaciones industriales con nuestros sistemas de bombeo de alta capacidad y durabilidad. Perfectos para establecimientos comerciales, hotelería, restaurantes, hospitales y procesos industriales donde el agua realice un papel fundamental.',
-    image: '/carousel/2.webp',
+    image: '/Aplicaciones Bombeo Comercial.png',
     icon: '/icons/BombeoComercial.svg',
   },
   {
@@ -24,7 +24,7 @@ const applications = [
     title: 'Bombeo Agrícola',
     description:
       'Maximiza la eficiencia en campo con bombas agrícolas diseñadas para altos rendimientos, garantizando un riego uniforme y un suministro constante de agua en tus procesos agroindustriales.',
-    image: '/carousel/3.webp',
+    image: '/Aplicaciones Bombeo Agrícola.webp',
     icon: '/icons/BombeoAgricola.svg',
   },
   {
@@ -32,7 +32,7 @@ const applications = [
     title: 'Riego Paisajismo',
     description:
       'Embellece y mantiene tus espacios verdes con sistema sistemas de riego automatizados y eficientes. Diseñados para jardinería, parques, zonas comerciales y áreas recreativas, asegurando una distribución optima del agua.',
-    image: '/carousel/6.jpg',
+    image: '/Aplicaciones Riego Paisajismo.jpg',
     icon: '/icons/RiegoPaisajismo.svg',
   },
   {
@@ -40,7 +40,7 @@ const applications = [
     title: 'Riego Campos Deportivos',
     description:
       'Mantén tus campos deportivos en óptimas condiciones con sistemas de riego especializados, garantizando un césped saludable y uniforme para un rendimiento de juego superior.',
-    image: '/carousel/5.jpg',
+    image: '/Aplicaciones Riego Campos Deportivos.jpg',
     icon: '/icons/RiegoCamposDeportivos.svg',
   },
   {
@@ -48,7 +48,7 @@ const applications = [
     title: 'Riego Agricultura',
     description:
       'Optimiza tus cultivos con soluciones de riego precisas y efectivas, adaptadas a tus necesidades agrícolas. Aseguramos una distribución uniforme del agua para maximizar el crecimiento y la productividad de tus plantas.',
-    image: '/carousel/7.jpg',
+    image: '/Aplicaciones Riego Agricultura.jpg',
     icon: '/icons/RiegoAgricultura.svg',
   },
 ];
