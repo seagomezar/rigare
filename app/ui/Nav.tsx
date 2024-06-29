@@ -15,7 +15,7 @@ const Nav = () => {
         <Image
           src="/logo-rigare.png"
           alt="Rigare SAS Logo"
-          width={200}
+          width={120}
           height={24}
           priority
         />

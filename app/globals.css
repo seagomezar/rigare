@@ -5,9 +5,31 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
+@font-face {
+  font-family: 'Adam';
+  src: url('/fonts/Adam-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adam';
+  src: url('/fonts/Adam-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adam';
+  src: url('/fonts/Adam-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 
 /* Opcional: Estilos globales para aplicar la fuente */
 * {
+  font-family: 'Adam', sans-serif;
   font-family: Frutiger Neue LT,
     Arial,
     Helvetica,

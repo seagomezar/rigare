@@ -5,7 +5,7 @@ const BannerMedio = () => {
   return (
     <div
       className="relative w-full h-64 bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/carousel/8.jpg')" }}
+      style={{ backgroundImage: "url('/carousel/Background2.jpg')" }}
     >
       <div className="absolute inset-0 bg-green-700 opacity-75"></div>
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full px-8 text-white">
@@ -18,10 +18,11 @@ const BannerMedio = () => {
           <p className="text-lg mb-4">
             Te prometemos{' '}
             <span className="font-bold">Excelencia Garantizada</span>{' '}
-            - Desempeño Garantizado en cada proyecto.
+            <br />
+            Desempeño Garantizado en cada proyecto.
           </p>
           <a
-            href="https://wa.me/1234567890"
+            href="https://wa.me/573006369637"
             target="_blank"
             rel="noopener noreferrer"
           >

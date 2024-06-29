@@ -65,7 +65,7 @@ const Applications = () => {
   return (
     <div className="p-8">
       <h2 className="text-green-600 text-2xl mb-4">
-        Aplicaciones Rigare ...
+        Aplicaciones Rigare
       </h2>
       <div
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
