@@ -42,6 +42,16 @@ const Carousel = () => {
           </div>
         ))}
       </Slider>
+      <div className="relative hero-overlay">
+        {/* Triangles */}
+        <div className="hero-overlay-triangle hero-overlay-triangle-1 absolute -bottom-px left-0 w-full bg-white opacity-66"></div>
+        <div className="hero-overlay-triangle hero-overlay-triangle-2 absolute -bottom-px left-0 w-full bg-white opacity-66"></div>
+        <div className="hero-overlay-triangle hero-overlay-triangle-3 absolute -bottom-px left-0 w-full bg-white opacity-66"></div>
+        <div className="hero-overlay-triangle hero-overlay-triangle-4 absolute -bottom-px left-0 w-full bg-white opacity-66"></div>
+
+        {/* Gradient */}
+        <div className="hero-overlay-gradient absolute -bottom-px left-0 w-full"></div>
+      </div>
     </div>
   );
 };
