@@ -5,7 +5,7 @@ const BannerMedio = () => {
   return (
     <div
       className="relative w-full h-64 bg-cover bg-center flex items-center justify-center"
-      style={{ backgroundImage: "url('/carousel/Background2.jpg')" }}
+      style={{ backgroundImage: "url('/carousel/BackGround2.jpg')" }}
     >
       <div className="absolute inset-0 bg-green-700 opacity-75"></div>
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between w-full px-8 text-white">
