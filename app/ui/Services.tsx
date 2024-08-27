@@ -28,7 +28,7 @@ const services = [
     title: 'Fabricación de Controladores',
     description:
       'Controla cada gota con mayor eficiencia. Presentamos nuestros innovadores controladores para sistemas de bombeo y sistemas de riego, diseñados para llevar la gestión de agua a otro nivel. Con nuestra tecnología podrás optimizar tus recursos hídricos de manera inteligente y eficaz. Ajusta los tiempos, la frecuencia y la cantidad de agua con alta precisión, garantizando un uso eficiente y sostenible de este recurso invaluable. Nuestros controladores ofrecen una interfaz intuitiva y fácil de usar, diseñada para satisfacer las necesidades de agricultores, operadores de mantenimiento y profesionales del sector. Descubre una nueva era en la gestión del agua.',
-    image: '˝/Servicios Fabricación controladores.webp',
+    image: '/Servicios Fabricación controladores.webp',
   },
 ];
 
